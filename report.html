@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportar un Problema - Chaclacayo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+                <li><a href="report.html">Reportar un Problema</a></li>
+                <li><a href="track.html">Seguimiento de Reportes</a></li>
+                <li><a href="chat.html">Comunicación en Tiempo Real</a></li>
+                <li><a href="offers.html">Ofertas y Descuentos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Reportar un Problema</h1>
+        <form action="#" method="post">
+            <label for="photo">Tomar Fotos del Problema:</label>
+            <input type="file" id="photo" name="photo" accept="image/*"><br>
+            <div id="preview-container">
+                <img id="preview" src="" alt="Vista previa de la imagen" style="display: none; max-width: 100%; border-radius: 8px;">
+            </div>
+            <label for="description">Descripción del Problema:</label>
+            <textarea id="description" name="description" rows="4" required></textarea><br>
+            <button type="submit">Enviar Reporte</button>
+        </form>
+        <p><a href="index.html">Regresar al Inicio</a></p>
+    </main>
+</body>
+</html>
