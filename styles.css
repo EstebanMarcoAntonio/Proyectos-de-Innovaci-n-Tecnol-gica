@@ -111,3 +111,26 @@ button.share {
 button.share:hover {
     background-color: #365899;
 }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: right;
+            padding: 10px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .footer-content a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .footer-content img {
+            width: 24px;
+            height: 24px;
+        }
